@@ -54,7 +54,12 @@ Welcome to the **SFDC Brewery Salesforce Developer Agent**! This project leverag
 ## Usage
 
 1. **Open the app** in your browser.
-2. **Describe your Salesforce task** in the chat input (e.g., "Create a new custom object named 'Invoice' with fields for 'Amount' and 'Due Date'").
+2. **Describe your Salesforce JIRA task or generic Salesforce action** in the chat input 
+```plaintext
+   As a: Salesforce Administrator
+   I want to: Clone any five existing accounts in Salesforce, creating new accounts with the same details as the originals.
+   So that: I can quickly replicate these successful account configurations without manually re-entering the same information.
+```
 3. **The agent will generate and execute the required code**.
 4. **View the execution results** in the chat interface.
 
@@ -66,5 +71,5 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 This project is licensed under the MIT License. 
 
-Made with ❤️ by [Sri Kolagani] at SFDC Brewery.
+Made with ❤️ by [Sri Kolagani](https://www.linkedin.com/in/sriharideep/) at [SFDC Brewery](https://sfdcbrewery.github.io/).
 
